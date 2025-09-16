@@ -1,0 +1,19 @@
+[workspace]
+members = [
+    "crates/ostd",
+    "crates/aster-util",
+    "crates/component",
+    "crates/component-macro",
+    "crates/aster-time",
+    "crates/aster-time-ffi",
+    "app",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+
+[workspace.dependencies]
+log = "0.4"
+spin = "0.9.4"
+

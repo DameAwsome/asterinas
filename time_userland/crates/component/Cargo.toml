@@ -1,0 +1,13 @@
+[package]
+name = "component"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+inventory = "0.3"
+component-macro = { path = "../component-macro" }
+log = { workspace = true }
+
+[lib]
+crate-type = ["rlib"]
+
