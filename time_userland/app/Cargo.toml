@@ -1,0 +1,10 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aster-time = { path = "../crates/aster-time" }
+component = { path = "../crates/component" }
+ostd = { path = "../crates/ostd" }
+
