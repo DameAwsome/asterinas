@@ -1,0 +1,15 @@
+[workspace]
+members = [
+    "crates/aster-time",
+    "crates/ostd",
+    "crates/aster-util",
+    "crates/component",
+    "app",
+]
+
+[workspace.package]
+edition = "2021"
+
+[workspace.lints]
+rust = { unsafe_code = "forbid" }
+
